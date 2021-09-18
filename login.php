@@ -22,6 +22,7 @@
                 <p>Password</p>
                 <input type="password" name="" placeholder="Enter Password">
                 <input type="submit" name="" value="Login">
+                <a href="index.php">Back to homepage</a>
             </form>
     </div>
 </body>

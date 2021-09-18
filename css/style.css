@@ -159,3 +159,12 @@ nav a:hover::before{
     background: #fff;
     color: black;
 }
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+/*----------------------------------------END CODE FOR LOGIN BOX---------------------------------------------------------*/
