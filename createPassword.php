@@ -23,7 +23,7 @@
             <p>Password</p>
             <input type="text" name="password_input" placeholder="Enter Password" required>
             <p>Email</p>
-            <input type="email" name="email_input" placeholder="Enter Email" required>
+            <input type="email" name="email_input" placeholder="Enter Email">
             <p>Expiry Data</p>
             <input type="date" name="expiry_input">
             <input type="submit" name="" value="Login">

@@ -49,3 +49,4 @@
 ?>
 
 <a href="createPassword.php">Return to create password page</a>
+<a href="index.php">Return to home page</a>
