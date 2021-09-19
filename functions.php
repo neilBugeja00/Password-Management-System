@@ -27,7 +27,7 @@
         $sql = "INSERT INTO storage (pass_id,pass_username, pass_password, pass_email, pass_website, pass_expiry, pass_created)
         VALUES (null,'$new_entry_username','$new_entry_password','$new_entry_email','$new_entry_website','$new_entry_expiry','$new_entry_created')";
         //running the query
-        $result = $mysqli->query($sql) or die(mysqli_error($mysqli));
+        $result = $conn->query($sql) or die(mysqli_error($conn));
 
         //Once entry is added, redirects user to index.php
         header('Location: index.php');

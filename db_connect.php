@@ -5,9 +5,9 @@
     $userpass = "110101";
     $database = "pms";
 
-    $mysqli = new mysqli($host,$username,$userpass,$database);
+    $conn = new mysqli($host,$username,$userpass,$database);
 
-    if($mysqli->connect_errno){
+    if($conn->connect_errno){
         echo "Failed to connect";
     }
 ?>
