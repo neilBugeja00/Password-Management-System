@@ -1,6 +1,7 @@
 <?php
     //connecting to database
     include "db_connect.php";
+    include "functions.php"
 ?>
 
 <!DOCTYPE html>
@@ -15,18 +16,18 @@
 <body>
     <div class="creationBox">
         <h1>Create Entry</h1>
-        <form action="enter_password.php">
+        <form action="functions.php" method="post">
             <p>Website / Application</p>
             <input type="text" name="website_input" placeholder="Enter website / application" required>
             <p>Username</p>
             <input type="text" name="username_input" placeholder="Enter Username" required>
             <p>Password</p>
-            <input type="text" name="password_input" placeholder="Enter Password" required>
+            <input type="password" name="password_input" placeholder="Enter Password" required>
             <p>Email</p>
             <input type="email" name="email_input" placeholder="Enter Email">
             <p>Expiry Data</p>
             <input type="date" name="expiry_input">
-            <input type="submit" name="" value="Login">
+            <input type="submit" name="submitEntry" value="Submit">
             <a href="index.php">Back to homepage</a>
         </form>
     </div>

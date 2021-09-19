@@ -20,6 +20,7 @@
                     <li><a href="createPassword.php">New</a></li>
                     <li><a href="viewPassword.php">View</a></li>
                     <li><a href="#">Delete</a></li>
+                    <li><a href="#">Edit</a></li>
                     <li><a href="login.php">Log in</a></li>
                 </ul>
             </nav>
