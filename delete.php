@@ -45,7 +45,7 @@
                         echo '<td>'. $row['pass_expiry'] .'</td>';
                         //echo '<td>'.'<input type="submit" name="submitDelete" value="Delete">'; 
                         //echo '<td>'. "<a href='delete_entry.php?passID=$row[pass_id]'>"."Delete".'</td>';
-                        echo '<td>'. "<input type=\"button\" class=\"button_active\" onclick=\"location.href='delete_entry.php?passID=$row[pass_id]'\">".'</td>';
+                        echo '<td>'. "<input type=\"button\" value=\"Remove\" class=\"button_active\" onclick=\"location.href='delete_entry.php?passID=$row[pass_id]'\">".'</td>';
                     echo '</tr>';
                 }
                 } else {
@@ -53,13 +53,6 @@
                 }
                 $conn->close();
             ?>
-
-            <div class="">
-                <h1>Create Entry</h1>
-                <form action="functions.php" method="post">
-                    <input type="submit" name="submitDelete" value="Submit">
-                </form>
-            </div>
 
         </tbody>
     </table>
