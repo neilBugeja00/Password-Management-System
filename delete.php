@@ -43,8 +43,6 @@
                         echo '<td>'. $row['pass_email'] .'</td>';
                         echo '<td>'. $row['pass_created'] .'</td>';
                         echo '<td>'. $row['pass_expiry'] .'</td>';
-                        //echo '<td>'.'<input type="submit" name="submitDelete" value="Delete">'; 
-                        //echo '<td>'. "<a href='delete_entry.php?passID=$row[pass_id]'>"."Delete".'</td>';
                         echo '<td>'. "<input type=\"button\" value=\"Remove\" class=\"button_active\" onclick=\"location.href='delete_entry.php?passID=$row[pass_id]'\">".'</td>';
                     echo '</tr>';
                 }
