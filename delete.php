@@ -44,7 +44,7 @@
                         echo '<td>'. $row['pass_created'] .'</td>';
                         echo '<td>'. $row['pass_expiry'] .'</td>';
                         //echo '<td>'.'<input type="submit" name="submitDelete" value="Delete">'; 
-                        echo '<td>'. "onclick='delete_entry.php?passID=$row[pass_id]'>"."Delete".'</td>';
+                        echo '<td>'. "<a href='delete_entry.php?passID=$row[pass_id]'>"."Delete".'</td>';
                     echo '</tr>';
                 }
                 } else {
