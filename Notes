@@ -1,0 +1,8 @@
+Delete button linking with pass_id:
+In the button on click, the variable $passID is set to pass_id (the passwords's id).
+
+To display the button in delete.php a mix of php and html is needed in the line echoing the button
+The following page, in the section part 2 "echo", explains how ",',\ are needed to distinguise between
+the two:
+https://stackoverflow.com/questions/1100354/how-can-i-echo-html-in-php
+
