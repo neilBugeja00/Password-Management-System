@@ -6,3 +6,5 @@ The following page, in the section part 2 "echo", explains how ",',\ are needed 
 the two:
 https://stackoverflow.com/questions/1100354/how-can-i-echo-html-in-php
 
+
+Changed db_connect.php details for sensitivity
